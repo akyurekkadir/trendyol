@@ -10,9 +10,14 @@ import Resume from "./apps/Resume";
 import Contacts from "./apps/Contacts";
 import Launchpad from "./components/Launchpad";
 import "./index.css";
+import { useEffect } from "react";
 
 function AppContent() {
-  const { windows } = useWindowManager();
+  const { windows, openWindow } = useWindowManager();
+
+  useEffect(() => {
+    openWindow('terminal');
+  }, []);
 
   const renderAppContent = (appId) => {
     switch (appId) {
