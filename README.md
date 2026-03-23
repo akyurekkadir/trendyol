@@ -2,8 +2,7 @@
 
 Welcome to my interactive, macOS-inspired personal portfolio! This project is a full-screen React application that simulates the macOS desktop environment, featuring a rich graphical user interface, draggable windows, and smooth animations.
 
-## 🚀 Live Demo
-[🔗 **View the Portfolio Here**](https://akyurekkadir.github.io/trendyol)
+
 
 ## ✨ Features
 - **Interactive Apps**: Experience custom-built applications including **Terminal**, **Finder**, **Safari**, **Launchpad**, **Resume**, and a specialized **Trendyol App**.
