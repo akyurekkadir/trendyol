@@ -1,0 +1,65 @@
+Kadir Aky¨ urek
+4th-Year Computer Engineering Student
++90 (536) 226 7747|kadirakyurek353@gmail.com |linkedin.com/in/kadir-aky¨ urek|github.com/akyurekkadir
+Education
+Hali¸ c UniversityIstanbul, Turkey
+Bachelor of Engineering in Computer Engineering –Full Scholarship RecipientSept. 2022 – Jun. 2026
+Google AI and Technology AcademyIstanbul, Turkey
+AI and Data Science-focused program supported by Google Turkey Dec. 2024 – Jun. 2025
+DenizBank Deniza¸ sırı Online Internship ProgramRemote
+Banking and personal development training program across multiple modules Sept. 2025
+Experience
+T¨UB˙ITAK-Supported Research Project, Yıldız Technical UniversityOct. 2025 – Present
+Undergraduate Research Scholar (T ¨UB˙ITAK 1001) Istanbul, Turkey
+• Advisor: Prof. Dr. T¨ ulay Yıldırım|Project Code: 124E277
+• Developing hybrid time-series forecasting architectures using Deep Learning (LSTM) and statistical models
+(ARIMA) to analyze chaotic behavior in seismic activities.
+• Processing large-scale AFAD datasets to model energy and stress transfer patterns for AI-driven earthquake risk
+assessment).
+Telenity Jun. 2025 – Aug. 2025
+AI & Data Engineering Intern Bakırk¨ oy, Istanbul, Turkey
+• Developed an automated document analysis system using Confluence API, web scraping, and NLP models to
+identify empty, duplicate, and similar pages with similarity scoring across214 spaces,17K+ pages, reducing
+content redundancy and generating comprehensive HTML reports.
+• Fine-tuned BERT-based classification models for Arabic SMS spam detection, addressing the challenge of limited
+Arabic training data by leveraging Google Translate API for data augmentation and achieving improved accuracy.
+• Performed user and content segmentation using clustering algorithms (K-Means), identifying similar behavioral
+patterns and delivering actionable insights through analytical reports, contributing to the development of a
+Recommendation Engine.
+• Engineered ETL pipelines to parse and process 300K+ rows of Event Data Records (EDR) for intelligent charging
+optimization, developing predictive models for optimal time prediction (OTP) to enhance billing efficiency.
+• Contributed to Telenity’s 5G-ready VAS platforms servingover 1 billion subscribers worldwide, gaining
+hands-on experience with telecom-scale data processing and real-time analytics systems.
+Key Projects
+Haier Europe Sell-In Forecasting Datathon 2025|Python, LightGBM, Time-Series ForecastingNov. 2025
+• Secured2nd Place on Private Leaderboard(out of 74 teams) by developing a robust 12-month demand
+forecasting model handling SKU phase-outs and seasonality.
+• Engineered a hybrid ensemble strategy combiningLightGBM ClassifierswithMAE & Tweedie Regressors
+to effectively handle zero-inflated demand data and reduce variance.
+• Implemented hierarchical reconciliation algorithms to ensure SKU-to-Category consistency and applied Scaling
+post-processing to optimize Q4 seasonality (November Boost) accuracy.
+Market Product Price Prediction|Deep Learning, Python, TensorFlow, Keras2025
+• AchievedTop 10ranking (out of 135 teams) in AI and Technology Academy Datathon with RMSE of4.6.
+• Built a regression model on 200,000+ samples to predict over 45,000 product prices using feature engineering,
+encoding, log transformations, and hyperparameter optimization with Keras Tuner.
+Certifications
+Google AI and Technology Academy
+Datathon, Ideathon & Bootcamp Participation Certificates
+Google Advanced Data Analytics Professional Certificate
+• 8-course certificate covering predictive modeling, regression, Python, statistics, and ML fundamentals.
+Huawei Cloud AI Bootcamp
+• Completed hands-on training in ModelArts, LLM fine-tuning, serverless deployment, and RAG applications with
+Elasticsearch.
+Digital Leadership ProgramGalatasaray University & Bo˘ gazi¸ ci University
+• Leadership-focused program on digital innovation, career development, and competitive strategies (Feb. – Apr.
+2025).
+Technical Skills
+Programming Languages: Python, Java, SQL
+Machine Learning & AI: LightGBM, TensorFlow, Keras, Scikit-learn, Deep Learning, Regression, Classification,
+Clustering (K-Means), NLP (BERT), Fine-Tuning, Hyperparameter Optimization, LSTM, ARIMA
+Data Engineering & Analytics: Pandas, NumPy, Apache Spark (PySpark), ETL Pipelines, Data Preprocessing,
+Feature Engineering, Data Visualization (Matplotlib)
+Web & API Development: FastAPI, RESTful APIs, Web Scraping, API Integration, HTML
+Databases & Tools: SQLite, Database Design, Schema Optimization
+Hardware & Tools: Arduino, Automated Testing, Git
+AI Systems: Elasticsearch, LLM, RAG, ModelArts
