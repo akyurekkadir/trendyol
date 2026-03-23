@@ -26,10 +26,10 @@ const projects = [
   {
     id: 'fridge',
     title: 'IoT Smart Fridge',
-    subtitle: 'Embedded Systems & ML',
+    subtitle: 'Computer Vision Simülasyonu & ML',
     date: 'Fall 2023',
     description: 'A smart fridge simulation that tracks inventory using computer vision. The system actively detects whether produce (such as oranges or apples) is fresh or rotten, and predicts when users need to restock items based on their routines.',
-    tags: ['OpenCV', 'Raspberry Pi', 'IoT', 'Python'],
+    tags: ['OpenCV', 'Computer Vision', 'Yapay Zeka', 'Python'],
     githubUrl: 'https://github.com/akyurekkadir/iot-smart-fridge',
     videoUrl: 'https://youtu.be/3ElFaKVzq6I',
     files: ['object_detection.py', 'inventory.db']

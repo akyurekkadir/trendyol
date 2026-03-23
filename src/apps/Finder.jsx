@@ -15,7 +15,7 @@ export default function Finder() {
             <Folder size={16} className="text-blue-500" /> Belgeler
           </li>
         </ul>
-        
+
         <h3 className="text-xs font-semibold text-slate-500 mb-2 uppercase tracking-wider">Konumlar</h3>
         <ul className="space-y-1">
           <li className="flex items-center gap-2 px-2 py-1.5 hover:bg-slate-200/50 rounded-md text-sm text-slate-700 cursor-default">
@@ -27,17 +27,17 @@ export default function Finder() {
       {/* Main Content Area */}
       <div className="flex-1 bg-white p-8 overflow-y-auto">
         <div className="max-w-3xl mx-auto space-y-8">
-          
+
           <div className="flex items-start gap-6">
             <div className="w-24 h-24 bg-gradient-to-br from-blue-400 to-indigo-600 rounded-full flex items-center justify-center text-white text-4xl shadow-lg shrink-0 overflow-hidden">
-               {/* Monogram or Photo */}
-               KA
+              {/* Monogram or Photo */}
+              KA
             </div>
             <div>
               <h1 className="text-3xl font-bold text-slate-800 mb-2">Kadir Akyürek</h1>
               <h2 className="text-xl text-slate-600 mb-4 tracking-tight">4th-Year Computer Engineering Student</h2>
               <p className="text-slate-600 leading-relaxed text-sm">
-                I am a senior Computer Engineering student at Haliç University with a full scholarship. Passionate about AI, Data Engineering, and Machine Learning. 
+                I am a senior Computer Engineering student at Haliç University with a full scholarship. Passionate about AI, Data Engineering, and Machine Learning.
                 Recently ranked Top 10 in Google AI Datathon and 2nd in Haier Europe Sell-In Forecasting Datathon. Skilled in deep learning, time-series forecasting (LSTM, ARIMA), and building end-to-end data pipelines.
               </p>
             </div>
@@ -79,8 +79,14 @@ export default function Finder() {
                 </li>
                 <li>
                   <strong className="block text-slate-800">Telenity - AI & Data Engineering Intern</strong>
-                  <span className="text-slate-500 text-xs">Jun. 2025 – Aug. 2025</span>
-                  <p className="mt-1">Developed automated document analysis with NLP, fine-tuned BERT models for classification, and engineered ETL pipelines to process 300K+ event data records.</p>
+                  <span className="text-slate-500 text-xs">Haziran 2025 – Ağustos 2025</span>
+                  <div className="mt-1 space-y-1">
+                    <p>• Confluence API ve NLP ile 17.000+ sayfalık doküman analiz sistemi kuruldu, HTML raporları üretildi.</p>
+                    <p>• BERT modellerine fine-tuning yapılarak Arapça SMS spam dedektörü oluşturuldu ve Google Translate API ile veri artırımı (data augmentation) uygulandı.</p>
+                    <p>• K-Means kümeleme metodu ile kullanıcı segmentasyonu yapılıp Öneri Motoru (Recommendation Engine) inşasına katkı sağlandı.</p>
+                    <p>• 300 binden fazla satırlı Olay Veri Kayıtlarını (EDR) okuyarak ETL pipeline'ları tasarlanıp Optimum Zaman Tahmini (OTP) modelleri kuruldu.</p>
+                    <p>• 1 milyar aboneye hizmet veren 5G-ready telekom platformlarında büyük veri işleme ve gerçek zamanlı yetenekler edinildi.</p>
+                  </div>
                 </li>
               </ul>
             </div>
