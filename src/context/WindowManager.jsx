@@ -7,7 +7,7 @@ export function WindowProvider({ children }) {
   const appsConfig = {
     launchpad: { id: 'launchpad', name: 'Launchpad', iconUrl: 'https://img.icons8.com/color/480/launchpad.png', defWidth: 0, defHeight: 0 },
     finder: { id: 'finder', name: 'Finder', iconUrl: 'https://img.icons8.com/color/480/mac-os.png', defWidth: 700, defHeight: 500 },
-    resume: { id: 'resume', name: 'Resume', iconUrl: 'https://img.icons8.com/fluency/240/document.png', defWidth: 800, defHeight: 900 },
+    resume: { id: 'resume', name: 'Resume', iconUrl: 'https://img.icons8.com/fluency/240/document.png', defWidth: 800, defHeight: 600 },
     contacts: { id: 'contacts', name: 'Contacts', iconUrl: 'https://img.icons8.com/color/480/contacts.png', defWidth: 700, defHeight: 500 },
     safari: { id: 'safari', name: 'Safari', iconUrl: 'https://img.icons8.com/color/480/safari--v1.png', defWidth: 800, defHeight: 600 },
     appstore: { id: 'appstore', name: 'App Store', iconUrl: 'https://img.icons8.com/fluency/240/apple-app-store.png', defWidth: 800, defHeight: 600 },
@@ -43,7 +43,7 @@ export function WindowProvider({ children }) {
       app: appsConfig[appId],
       zIndex: newZIndex,
       isMinimized: false,
-      isMaximized: appId === 'trendyol', // Trendyol automatically opens in full screen
+      isMaximized: appId === 'trendyol' || appId === 'resume', // Trendyol and Resume open in full screen
     }]);
 
     setActiveWindowId(appId);
