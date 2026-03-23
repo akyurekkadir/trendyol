@@ -35,12 +35,12 @@ export default function Trendyol() {
     { id: 'c0', year: '2003', emoji: '👶', title: 'Doğum' },
     { id: 'c1', year: '2022', emoji: '🎓', title: 'Haliç Üni.' },
     { id: 'c2', year: '2024', emoji: '🏆', title: 'YZTA Datathon\\n& Bursiyer' },
-    { id: 'c3', year: '2025', emoji: '🌐', title: 'Google AI Academy' },
+    { id: 'c3', year: '2025', emoji: '🏦', title: 'DenizBank Stajı' },
     { id: 'c4', year: 'Haz. 2025', emoji: '💼', title: 'Telenity Stajı' },
     { id: 'c5', year: 'Eki. 2025', emoji: '🧪', title: 'TÜBİTAK Projesi' },
     { id: 'c6', year: 'Ara. 2025', emoji: '🤝', title: 'Meet & Connect' },
     { id: 'c7', year: 'Kas. 2025', emoji: '🥈', title: 'Haier 2.lik' },
-    { id: 'c8', year: '2026', emoji: '🚀', title: 'Trendyol Talent', special: true },
+    { id: 'c8', year: '2026', emoji: '🚀', title: 'Trendyol Talent', special: true }
   ];
 
   // Visual order for the 3x3 grid (snaking arrangement on CSS grid)
