@@ -137,7 +137,7 @@ export default function Trendyol() {
     } else if (activeTab === 'kariyer') {
       items = [
         { title: 'TÜBİTAK Research Scholar (1001)', desc: 'SismoKaos Deprem Tahmini - Yıldız Teknik', icon: GraduationCap, tag: 'Akademik Araştırma', badge: 'DEVAM EDİYOR', detail: 'Derin öğrenme (LSTM) ve istatistiksel (ARIMA) modellerini karma birleştirerek sismik verilerden deprem stresi ve tahmini sağlayan AFAD destekli araştırma projesi (124E277).' },
-        { title: 'Telenity AI & Data Engineering Intern', desc: 'Otomatik Doküman Analitiği ve NLP', icon: Briefcase, tag: 'Yaz Stajı', badge: 'STAJ', detail: '• Confluence API ve NLP ile 17.000+ sayfalık veri analiz sistemi kuruldu. • Arapça SMS spam tespiti için BERT modelleri eğitildi ve veri artırımı (data augmentation) yapıldı. • K-Means ile kullanıcı segmentasyonu yapılarak Öneri Motoru geliştirilmesine katkı sağlandı. • 300.000+ EDR verisini işleyen ETL pipeline\'ları tasarlanıp Optimum Zaman Tahmini (OTP) modelleri kuruldu. • 1 milyar+ aboneye hizmet veren 5G-ready (VAS) telekom platformlarında büyük veri analitiği tecrübesi edinildi.' },
+        { title: 'Telenity AI & Data Engineering Intern', desc: 'Otomatik Doküman Analitiği ve NLP', icon: Briefcase, tag: 'Yaz Stajı', badge: 'STAJ', detail: '• Confluence API ve NLP ile 17.000+ sayfalık veri analiz sistemi kuruldu.\n• Arapça SMS spam tespiti için BERT modelleri ile veri artırımı yapıldı.\n• K-Means ile kullanıcı segmentasyonu yapılarak Öneri Motoru geliştirilmesine katkı sağlandı.\n• 300.000+ EDR verisini işleyen ETL pipeline\'ları tasarlanıp Optimum Zaman Tahmini (OTP) modelleri kuruldu.\n• 1 milyar+ aboneye hizmet veren 5G-ready telekom platformlarında büyük veri analitiği tecrübesi edinildi.' },
         { title: 'DenizBank Denizaşırı Programı', desc: 'Merkezi Finans ve Kişisel Gelişim Eğitimleri', icon: Globe, tag: 'Eğitim / Teknoloji', badge: 'FİNANS', detail: 'Kişisel gelişim modülleri ve finans sektörünün teknik donanımlarını tanıma amacıyla gerçekleştirilmiş özel seçilmiş adaylar programı.' }
       ];
     } else if (activeTab === 'iletisim') {
@@ -234,7 +234,7 @@ export default function Trendyol() {
               <p className="text-gray-400 font-semibold text-sm mb-4 uppercase tracking-wide">{selectedProduct.desc}</p>
 
               <div className="space-y-4 text-gray-600 text-sm flex-1">
-                <p className="leading-relaxed bg-gray-50 p-4 rounded-xl border border-gray-100 font-medium">{selectedProduct.detail}</p>
+                <p className="leading-relaxed bg-gray-50 p-4 rounded-xl border border-gray-100 font-medium whitespace-pre-line">{selectedProduct.detail}</p>
               </div>
 
               <div className="mt-8 flex gap-3 flex-wrap">
