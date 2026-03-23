@@ -39,7 +39,7 @@ export default function Trendyol() {
     { id: 'c4', year: 'Eyl. 2025', emoji: '🏦', title: 'DenizBank Stajı' },
     { id: 'c5', year: 'Eki. 2025', emoji: '🧪', title: 'TÜBİTAK Projesi' },
     { id: 'c6', year: 'Ara. 2025', emoji: '🤝', title: 'Meet & Connect' },
-    { id: 'c7', year: 'Kas. 2025', emoji: '🥈', title: 'Haier 2.lik' },
+    { id: 'c7', year: 'Ara. 2025', emoji: '🥈', title: 'Haier 2.lik' },
     { id: 'c8', year: '2026', emoji: '🚀', title: 'Trendyol Talent', special: true }
   ];
 
