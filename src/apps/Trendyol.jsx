@@ -13,11 +13,11 @@ export default function Trendyol() {
 
   const slides = [
     {
-      img: '/trendyol_gezi.jpg',
+      img: './trendyol_gezi.jpg',
       text: 'Merhaba Trendyol Ekibi'
     },
     {
-      img: '/haier_odul.png',
+      img: './haier_odul.png',
       text: 'Haier Europe Datathon 2.lik Ödülü!'
     }
   ];

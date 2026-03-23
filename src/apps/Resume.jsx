@@ -4,13 +4,13 @@ export default function Resume() {
   return (
     <div className="w-full h-full bg-slate-50 flex items-center justify-center p-2">
       <iframe
-        src="/Kadir-Akyurek-CV.pdf"
+        src="./Kadir-Akyurek-CV.pdf"
         title="Kadir Akyürek CV"
         width="100%"
         height="100%"
         className="rounded-lg shadow-sm border border-slate-200"
       >
-        <p>PDF görüntülenemiyor. <a href="/Kadir-Akyurek-CV.pdf">Buradan indirebilirsiniz</a>.</p>
+        <p>PDF görüntülenemiyor. <a href="./Kadir-Akyurek-CV.pdf">Buradan indirebilirsiniz</a>.</p>
       </iframe>
     </div>
   );
