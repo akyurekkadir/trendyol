@@ -3,6 +3,9 @@ import { createContext, useState, useContext } from 'react';
 const WindowContext = createContext();
 
 export function WindowProvider({ children }) {
+  // Dynamic Trendyol inclusion based on URL path
+  const isTrendyolContext = typeof window !== 'undefined' && window.location.href.toLowerCase().includes('trendyol');
+
   // apps configurations using reliable high-res macOS 3D icon URLs
   const appsConfig = {
     launchpad: { id: 'launchpad', name: 'Launchpad', iconUrl: 'https://img.icons8.com/color/480/launchpad.png', defWidth: 0, defHeight: 0 },
@@ -13,7 +16,9 @@ export function WindowProvider({ children }) {
     appstore: { id: 'appstore', name: 'App Store', iconUrl: 'https://img.icons8.com/fluency/240/apple-app-store.png', defWidth: 800, defHeight: 600 },
     projects: { id: 'projects', name: 'Projects', iconUrl: 'https://img.icons8.com/nolan/512/mac-folder.png', defWidth: 900, defHeight: 600 },
     terminal: { id: 'terminal', name: 'Terminal', iconUrl: 'https://img.icons8.com/color/480/console.png', defWidth: 600, defHeight: 400 },
-    trendyol: { id: 'trendyol', name: 'Trendyol', iconUrl: 'https://img.icons8.com/color/480/online-store.png', defWidth: 900, defHeight: 700 },
+    ...(isTrendyolContext && {
+      trendyol: { id: 'trendyol', name: 'Trendyol', iconUrl: 'https://img.icons8.com/color/480/online-store.png', defWidth: 900, defHeight: 700 }
+    }),
     settings: { id: 'settings', name: 'Settings', iconUrl: 'https://img.icons8.com/color/480/mac-client.png', defWidth: 600, defHeight: 500 },
   };
 

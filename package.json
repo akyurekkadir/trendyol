@@ -8,6 +8,7 @@
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "deploy-root": "gh-pages -d dist -r https://github.com/akyurekkadir/akyurekkadir.github.io.git -b main",
     "lint": "eslint .",
     "preview": "vite preview"
   },
