@@ -38,7 +38,7 @@ export default function Finder() {
               <h2 className="text-xl text-slate-600 mb-4 tracking-tight">4th-Year Computer Engineering Student</h2>
               <p className="text-slate-600 leading-relaxed text-sm">
                 I am a senior Computer Engineering student at Haliç University with a full scholarship. Passionate about AI, Data Engineering, and Machine Learning.
-                Recently ranked Top 10 in Google AI Datathon and 2nd in Haier Europe Sell-In Forecasting Datathon. Skilled in deep learning, time-series forecasting (LSTM, ARIMA), and building end-to-end data pipelines.
+                Recently placed 2nd in İETT Public Transit Analytics Datathon, 2nd in Haier Europe Sell-In Forecasting Datathon, and ranked Top 10 in Google AI Datathon. Skilled in deep learning, time-series forecasting (LSTM, ARIMA), and building end-to-end data pipelines.
               </p>
             </div>
           </div>
