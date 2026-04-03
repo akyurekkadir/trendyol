@@ -3,6 +3,16 @@ import { Folder, ExternalLink, Github, ChevronRight } from 'lucide-react';
 
 const projects = [
   {
+    id: 'iett-datathon',
+    title: 'İETT Public Transit Analytics Datathon',
+    subtitle: 'AI Operations Agent - 2nd Place',
+    date: 'Mar 2026',
+    description: 'Built a conversational AI agent for querying 100M+ rows of İETT operational data (faults, accidents, demand, delays) using Groq LLMs with multi-tool calling and dimension/fact table resolution over 30 GB of transit data. Developed a Streamlit operations dashboard with natural language query support; implemented parallel API key rotation for rate-limit resilience in a 36-hour competitive sprint. Delivered predictive insights on fault risk, ridership demand, and route delays; awarded 2nd place by İBB and İETT Digital Intelligence Directorate jury (10 teams, 118 applicants).',
+    tags: ['Python', 'Groq LLM', 'Streamlit', 'Agentic AI', 'ETL'],
+    githubUrl: '#',
+    files: ['agent.py', 'dashboard.py']
+  },
+  {
     id: 'haier',
     title: 'Haier Demand Forecasting',
     subtitle: 'Datathon 2nd Place Winner',
