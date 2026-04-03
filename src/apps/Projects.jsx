@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Folder, ExternalLink, Github, ChevronRight } from 'lucide-react';
+import { Folder, ExternalLink, Github, ChevronRight, Linkedin } from 'lucide-react';
 
 const projects = [
   {
@@ -10,6 +10,8 @@ const projects = [
     description: 'Built a conversational AI agent for querying 100M+ rows of İETT operational data (faults, accidents, demand, delays) using Groq LLMs with multi-tool calling and dimension/fact table resolution over 30 GB of transit data. Developed a Streamlit operations dashboard with natural language query support; implemented parallel API key rotation for rate-limit resilience in a 36-hour competitive sprint. Delivered predictive insights on fault risk, ridership demand, and route delays; awarded 2nd place by İBB and İETT Digital Intelligence Directorate jury (10 teams, 118 applicants).',
     tags: ['Python', 'Groq LLM', 'Streamlit', 'Agentic AI', 'ETL'],
     githubUrl: '#',
+    youtubeUrl: 'https://www.youtube.com/watch?v=vfIBSE1h-pc',
+    linkedinUrl: 'https://www.linkedin.com/posts/kadir-aky%C3%BCrek-847199246_ibb-ve-i%CC%87ett-bilgi-i%CC%87%C5%9Flem-daire-ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1-ugcPost-7444802386143125504-PAb_?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzlRncByKGRBJ1JWPqyPmib6laaGMEX5gw',
     files: ['agent.py', 'dashboard.py']
   },
   {
@@ -128,6 +130,11 @@ export default function Projects() {
               {activeProject.demoUrl && (
                 <a href={activeProject.demoUrl} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-500 transition-colors">
                   <ExternalLink size={18} /> Live Demo
+                </a>
+              )}
+              {activeProject.linkedinUrl && (
+                <a href={activeProject.linkedinUrl} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3 bg-[#0077b5] text-white font-semibold rounded-lg hover:bg-[#0077b5]/80 transition-colors">
+                  <Linkedin size={18} /> LinkedIn Post
                 </a>
               )}
               {(activeProject.youtubeUrl || activeProject.videoUrl) && (
